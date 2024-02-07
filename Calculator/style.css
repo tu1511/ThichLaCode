@@ -110,7 +110,7 @@ input[type=button]:focus {
 
 /* responsive */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     .container {
         min-height: auto;
     }
