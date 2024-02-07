@@ -37,7 +37,8 @@ input[type=text] {
     min-width: 95%;
     max-width: 95%;
     border: 0.1em inset #cbcbcb;
-    text-align: center;
+    padding-left: 0.5em;
+    text-align: right;
 }
 
 .body {
@@ -69,4 +70,22 @@ input[type=button] {
     height: 2em;
     padding: 0;
     margin: 0;
+}
+
+input[type=button].equals {
+    border: 0.2em outset #666;
+    background-color: #666;
+}
+
+input[type=button].clear {
+    border: 0.2em outset #fe752d;
+    background-color: #fe752d;
+}
+
+input[type=button]:active {
+    border: 0 !important;
+}
+
+input[type=button]:focus {
+    outline: 0;
 }
