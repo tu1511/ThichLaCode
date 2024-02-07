@@ -11,9 +11,9 @@ $button.forEach(($button) => {
         }
 
         if(value === '=') {
-            // const express = $display.value.replace(/X/g, '*');
-            // $display.value = eval(express);
-            // return;
+            const express = $display.value.replace(/X/g, '*');
+            $display.value = eval(express);
+            return;
         }
 
         $display.value += value;
