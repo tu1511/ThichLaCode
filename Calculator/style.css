@@ -111,10 +111,20 @@ input[type=button]:focus {
 /* responsive */
 
 @media only screen and (max-width: 768px) {
+    .container {
+        min-height: auto;
+    }
     .calc {
         max-width: 96%;
         margin: 2em;
         position: absolute;
         top: 20px;
+    }
+    .row {
+        margin-top: 0.5em;
+    }
+
+    input[type=button] {
+        margin: 0.1em;
     }
 }
