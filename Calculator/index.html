@@ -4,51 +4,57 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=VT323"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <form action="" class="calc">
-      <div class="header">
-        <hr />
-        <hr />
-        <h1>CALCULATOR</h1>
-        <input
-          type="text"
-          class="display"
-          placeholder="0000000000000000"
-          disabled
-        />
-        <hr />
-      </div>
-      <div class="body" class="section group">
-        <hr />
-        <hr />
-        <div class="row">
-          <input type="button" value="7" />
-          <input type="button" value="8" />
-          <input type="button" value="9" />
-          <input type="button" value="+" />
+    <div class="container">
+      <form action="" class="calc">
+        <div class="header">
+          <hr />
+          <hr />
+          <h1>CALCULATOR by MinhTu <3</h1>
+          <input
+            type="text"
+            class="display"
+            placeholder="00000000000000000"
+            disabled
+          />
+          <hr />
         </div>
-        <div class="row">
-          <input type="button" value="4" />
-          <input type="button" value="5" />
-          <input type="button" value="6" />
-          <input type="button" value="-" />
+        <div class="body" class="section group">
+          <hr />
+          <hr />
+          <div class="row">
+            <input type="button" value="7" />
+            <input type="button" value="8" />
+            <input type="button" value="9" />
+            <input type="button" value="+" />
+          </div>
+          <div class="row">
+            <input type="button" value="4" />
+            <input type="button" value="5" />
+            <input type="button" value="6" />
+            <input type="button" value="-" />
+          </div>
+          <div class="row">
+            <input type="button" value="1" />
+            <input type="button" value="2" />
+            <input type="button" value="3" />
+            <input type="button" value="X" />
+          </div>
+          <div class="row">
+            <input type="button" value="0" />
+            <input type="button" class="clear" value="C" />
+            <input type="button" class="equals" value="=" />
+            <input type="button" value="/" />
+          </div>
         </div>
-        <div class="row">
-          <input type="button" value="1" />
-          <input type="button" value="2" />
-          <input type="button" value="3" />
-          <input type="button" value="X" />
-        </div>
-        <div class="row">
-          <input type="button" value="0" />
-          <input type="button" class="clear" value="C" />
-          <input type="button" class="equals" value="=" />
-          <input type="button" value="/" />
-        </div>
-      </div>
-    </form>
+      </form>
+    </div>
 
     <script src="script.js"></script>
   </body>
