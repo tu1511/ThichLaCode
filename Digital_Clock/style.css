@@ -23,10 +23,10 @@
 
 body {
     background:
-        radial-gradient(at 0% 0%, rgb(252, 230, 227) 0px, transparent 50%),
+        radial-gradient(at 0% 0%, rgb(252, 252, 252) 0px, transparent 50%),
         radial-gradient(at 13% 36%, rgb(173, 211, 211) 0px, transparent 50%),
         radial-gradient(at 56% 86%, #ece8e8 0px, transparent 50%),
-        radial-gradient(at 69% 44%, rgb(241, 112, 112) 0px, transparent 50%),
+        radial-gradient(at 69% 44%, rgb(218, 210, 144) 0px, transparent 50%),
         radial-gradient(at 100% 100%, hsla(204, 100%, 73%, 1) 0px, transparent 50%),
         radial-gradient(at 95% 5%, hsla(302, 81%, 90%, 1) 0px, transparent 50%);
     font-family: "Montserrat";
@@ -38,8 +38,8 @@ body {
 }
 
 .container {
-    background-color: #080808;
-    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
     padding: 60px 20px;
     box-shadow: 1px 1px 5px #ffffff26,
         0 15px 90px 30px #00000040;
@@ -81,7 +81,7 @@ body {
 }
 
 .label {
-    color: #ffffff59;
+    color: #00000059;
     text-transform: uppercase;
     font-size: 1rem;
     margin-top: 10px;
