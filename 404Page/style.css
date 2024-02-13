@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+
+body {
+    background: #28254c;
+}
+
+.top {
+    margin-top: 30px;
+}
+
+h1 {
+    color: #ededed;
+    font-family: "Abril Fatface", serif;
+    text-align: center;
+    font-size: 9em;
+    margin: 0;
+    text-shadow: -1px 0 #bfc0c0,
+        0 1px #bfc0c0,
+        1px 0 #bfc0c0,
+        0 -1px #bfc0c0;
+}
+
+h3 {
+    color: #bfc0c0;
+    font-family: "Lato", sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -20px;
+    font-weight: 900;
+}
+.container {
+    margin: 0 auto;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin-top: -40px;
+}
+
+.ghost {
+    width: 50%;
+    height: 53%;
+    border-radius: 50% 50% 0 0;
+    background: #ededed;
+    border-bottom: none;
+    position: absolute;
+    left: 25%;
+    top: 10%;
+    animation: float 2s ease-out infinite;
+}
+
+.eye, .eye-right {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background: #585959;
+    border-radius: 50%;
+    top: 40%;
+}
+.eye {
+    left: 25%;
+}
+
+.eye-right {
+    right: 25%;
+}
+
+.mouth {
+    width: 10px;
+    height: 10px;
+    border:  3px solid;
+    border-color: transparent #585959 #585959 transparent;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    left: 45%;
+}
+
+.one, .two, .three, .four {
+    width: 25%;
+    height: 23%;
+    background: #ededed;
+    position: absolute;
+    top: 85%;
+    z-index: 0;
+}
+
+.one {
+    border-radius: 0 0 100% 30%;
+}
+
+.two {
+    left: 25%;
+    border-radius: 0 0 50% 50%;
+}
+
+.three {
+    left: 50%;
+    border-radius: 0 0 50% 50%;
+}
+
+.four {
+    left: 75%;
+    border-radius: 0 0 30% 100%
+}
+
+.shadow {
+    width: 30%;
+    height: 7%;
+    background: #bfc0c0;
+    border-radius: 50%;
+    position: absolute;
+    left: 35%;
+    top: 80%;
+    animation: scale 2s infinite;
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes float { 
+    50% {
+        transform: translateY(15px);
+    }
+}
+
+.bottom {
+    margin-top: 10px;
+}
+
+p {
+    color: #ededed;
+    text-align:  center;
+    font-family: "Lato", sans-serif;
+    font-size: 0.9em;
+    margin-top: -20px;
+    text-transform: uppercase;
+}
+
+.search {
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.search-bar {
+    border: 1px solid #bfc0c0;
+    padding: 5px;
+    height: 20px;
+    margin-left: -30px;
+    width: 200px;
+    outline: none;
+}
+
+.search-btn {
+    background: #bfc0c0;
+    color: #ededed;
+    border: 1px solid #bfc0c0;
+    position: absolute;
+    width: 30px;
+    height: 32px;
+    font-size: 1em;
+    text-align: center;
+    outline: none;
+}
+
+.btn {
+    background: #ededed;
+    color: #585959;
+    font-size: 0.8em;
+    padding: 15px 20px;
+    margin: 5px;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    letter-spacing:  1px;
+    border: 0;
+}
