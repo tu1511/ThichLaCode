@@ -1,5 +1,7 @@
 body {
-    background: #060817;
+    background: url(images/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,7 +23,7 @@ body {
     height: 100%;
     top: 0%;
     left: 0%;
-    background: url();
+    background: url(https://codetheworld.io/wp-content/uploads/2023/11/MWLpKEZ_Earth.jpeg) repeat-x;
     box-shadow: -80px -15px 80px 10px #000000e6 inset,
         -10px 0px 15px -7px #f0df1759;
     background-size: cover;
