@@ -15,7 +15,7 @@ function generateCalendar() {
     const firstDayOfWeek = firstDayOfMonth.getDay();
     const totalDays = lastDayOfMonth.getDate();
 
-    for (let i = 0; i < firstDayOfWeek; i++) {
+    for (let i = 1; i < firstDayOfWeek; i++) {
         let blankDay = document.createElement("div");
         calendar.appendChild(blankDay);
     }
@@ -46,7 +46,7 @@ function deleteTask (taskElement) {
 function editTask(taskElement) {
     const newTaskDesc = prompt("Edit your task: ", taskElement.textContent);
 
-    if(newTaskDesc !== null & newTaskDesc.trim() !== "") {
+    if(newTaskDesc !== null && newTaskDesc.trim() !== "") {
         taskElement.textContent = newTaskDesc;
     }
 }
