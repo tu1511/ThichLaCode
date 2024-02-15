@@ -7,8 +7,14 @@
 }
 
 body {
-    height: 100%;
-    background-color: #f88bf8;
+    height: 100vh;
+    background:
+        radial-gradient(at 0% 0%, rgb(252, 252, 252) 0px, transparent 50%),
+        radial-gradient(at 13% 36%, rgb(173, 211, 211) 0px, transparent 50%),
+        radial-gradient(at 56% 86%, #ece8e8 0px, transparent 50%),
+        radial-gradient(at 69% 44%, rgb(218, 210, 144) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, hsla(204, 100%, 73%, 1) 0px, transparent 50%),
+        radial-gradient(at 95% 5%, hsla(302, 81%, 90%, 1) 0px, transparent 50%);
 }
 
 .planner {
@@ -43,8 +49,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #5c5656;
-    color: #c4c4c4;
+    background-color: #8ed2f0;
+    color: #00000046;
+    font-size: larger;
+    font-weight: bolder;
     padding: 15px;
     border-radius: 8px;
     min-height: 70px;
@@ -52,11 +60,11 @@ body {
 }
 
 .task {
-    background-color: #212121;
+    background-color: #7891a0;
     color: #fff;
     padding: 12px;
     margin-top: 10px;
-    border-radius: 4px;
+    border-radius: 10px;
     text-align: center;
     word-break: break-word;
     font-size: 0.8em;
@@ -135,6 +143,9 @@ input[type="text"] {
 @media screen and (max-width: 1200px){
     .calendar-grid {
         grid-template-columns: repeat(5, 1fr);
+    }
+    body {
+        height: 100%;
     }
 }
 
