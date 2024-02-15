@@ -28,7 +28,7 @@ body {
         radial-gradient(at 56% 86%, #ece8e8 0px, transparent 50%),
         radial-gradient(at 69% 44%, rgb(218, 210, 144) 0px, transparent 50%),
         radial-gradient(at 100% 100%, hsla(204, 100%, 73%, 1) 0px, transparent 50%),
-        radial-gradient(at 95% 5%, hsla(302, 81%, 90%, 1) 0px, transparent 50%);
+        radial-gradient(at 95% 5%, hsla(302, 81%, 90%, 1) 0px, transparent 50%) no-repeat;
     font-family: "Montserrat";
     min-height: 100vh;
     margin: 0;
@@ -85,4 +85,37 @@ body {
     text-transform: uppercase;
     font-size: 1rem;
     margin-top: 10px;
+}
+
+/* responsive */
+@media screen and (max-width: 576px) {
+    body {
+        height: auto;
+    }
+
+    .container {
+        min-width: 98%; /* Thu nhỏ container */
+        flex-direction: column; /* Xếp chồng các cột */
+        align-items: center; /* Canh giữa các cột */
+        padding: 30px 10px; /* Giảm khoảng cách lề */
+    }
+
+    .col {
+        margin-right: 0; /* Xóa lề trái và lề phải */
+        margin-left: 0;
+        margin-bottom: 20px; /* Thêm khoảng cách giữa các cột */
+    }
+
+    .col:not(:last-child):before,
+    .col:not(:last-child):after {
+        display: none; /* Ẩn dấu chấm giữa các cột */
+    }
+
+    .timer:before {
+        font-size: 3em; /* Giảm kích thước phần timer */
+    }
+
+    .label {
+        margin-top: 5px; /* Giảm khoảng cách giữa timer và nhãn */
+    }
 }
