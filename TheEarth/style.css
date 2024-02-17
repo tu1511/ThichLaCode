@@ -39,3 +39,21 @@ body {
         background-position: 1200px 0px;
     }
 }
+
+//responsive
+
+@media screen and (max-width: 768px) {
+    .earth {
+        perspective: 60vmin; /* Điều chỉnh perspective cho các thiết bị có kích thước nhỏ hơn */
+        width: 60vmin; /* Điều chỉnh kích thước ảnh cho các thiết bị có kích thước nhỏ hơn */
+        height: 60vmin; /* Điều chỉnh kích thước ảnh cho các thiết bị có kích thước nhỏ hơn */
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .earth {
+        perspective: 70vmin; /* Điều chỉnh perspective cho các thiết bị có kích thước nhỏ hơn */
+        width: 70vmin; /* Điều chỉnh kích thước ảnh cho các thiết bị có kích thước nhỏ hơn */
+        height: 70vmin; /* Điều chỉnh kích thước ảnh cho các thiết bị có kích thước nhỏ hơn */
+    }
+}
