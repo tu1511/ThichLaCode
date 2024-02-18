@@ -13,4 +13,3 @@ neonCursor({
   sleepTimeCoefX: 0.0025,
   sleepTimeCoefY: 0.0025
 })
-style.css
