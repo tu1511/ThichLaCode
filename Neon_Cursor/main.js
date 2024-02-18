@@ -1,4 +1,4 @@
-import { neonCursor } from 'https://unpkg.com/threejs-toys@0.0.8/build/threejs-toys.module.cdn.min.js'
+import { neonCursor } from 'https://unpkg.com/threejs-toys@0.0.2/build/threejs-toys.module.cdn.min.js'
 
 neonCursor({
   el: document.getElementById('app'),
@@ -13,3 +13,4 @@ neonCursor({
   sleepTimeCoefX: 0.0025,
   sleepTimeCoefY: 0.0025
 })
+style.css
