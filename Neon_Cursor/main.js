@@ -6,7 +6,6 @@ neonCursor({
   curvePoints: 80,
   curveLerp: 0.5,
   radius1: 5,
-  radius2: 30,
   velocityTreshold: 10,
   sleepRadiusX: 100,
   sleepRadiusY: 100,
