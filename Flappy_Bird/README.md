@@ -1,1 +1,1 @@
-Link: https://github.com/tu1511.io/ThichLaCode/Flappy_Bird/
+Link: https://tu1511.github.io/ThichLaCode/Flappy_Bird/
